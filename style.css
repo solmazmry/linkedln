@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+/* text-decoration: none; */
+list-style: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main{
+    height: 52px;
+    display: block;
+    margin-top: 15px;
+}
+.navbar_img{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+   
+     
+     
+    
+   
+}
+.img_select{
+
+    position: relative;
+    
+}
+
+
+.img_linkedln{
+    width: 37px;
+    height: 37px;
+}
+.navbar_input{
+    /* position: absolute; */
+    width: 230px;
+    height: 34px;
+    border-radius: 8px;
+    padding: 0 40px;
+    background-color: #edf3f8;
+    border-color: #edf3f800;
+
+    
+}
+.img_search{
+
+position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    margin: 8px 12px;
+    margin-top: -29px;
+
+}
+
+.navbar_input2{
+    display: flex;
+    margin-left: 55px;
+    div{
+        min-height: 52px;
+        min-width: 80px;
+        align-items: center;
+        i{
+           
+            display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 21px;
+        }
+        p{
+            
+            display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14.1px;
+    line-height: 1.33333;
+    color: rgb(0 0 0 / 60%);
+        }
+    }
+}
+.icon_house{
+    /* width: 15px; */
+    border: 1px solid rgb(93, 93, 93);
+}
+/* .fa-regular{
+  position: relative;
+} */
+.profil_img{
+    width:23px ;
+    height:23px ;
+    border-radius: 30px;
+    margin-left: 25px;
+    display: flow;
+    
+   
+}
+.stick{
+    height: 44px;
+    border: 1px solid rgb(169, 165, 165);
+    display: inline-block;
+  
+}
+
+.text{
+    width: 118px;
+    display: block;
+    font-size: 13px;
+}
+
+.box_icon{
+    position: relative;
+    span{
+        width: 8px;
+        height: 8px;
+        border-radius: 23px;
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        top: -9px;
+        right: 19px;
+        border: 5px solid red;
+    }
+}
+select{
+    margin-left: 13px;
+}
